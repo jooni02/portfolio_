@@ -1,0 +1,40 @@
+@import url(default.css);
+@import url(common.css);
+@import url(layout.css);
+
+@media screen and (max-width:1600x){
+    section .wrapper
+    footer .wrapper {
+        width: auto;
+        margin: 0 150px;
+    }
+}
+
+.main_tit {
+    padding: 50px;
+    font-size: 110px;
+    font-family: "DM Serif Text";
+}
+.main_tit h1 {
+    font-size: 200px;
+    font-weight: 900;
+    letter-spacing : -0.02em;
+}
+.main_tit .list02 {
+    margin: 0 0 0 200px;
+}
+.main_tit .list03 {
+    margin: 0 0 0 500px;
+}
+.main_tit .year {
+    font-size: 30px;
+    text-align: right;
+}
+
+.bg_b {
+    background-color: #000;
+}
+
+.other div .img {
+    text-align: center;
+}

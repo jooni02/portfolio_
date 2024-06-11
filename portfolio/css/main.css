@@ -55,7 +55,18 @@
 .web .list ul li { 
     display: flex;
     justify-content: space-between;
+    margin: 100px 0 200px 0;
 }
+.web .list ul li .list01 {
+    margin: 0 100px 0 0;
+}
+.web .list ul li .list01 a {
+    transition: all 0.5s ease;
+}
+.web .list ul li .list01 a:hover {
+    transform: scale(1.1);
+}
+
 .web .list ul li h3 {
     font-size: 35px;
 }

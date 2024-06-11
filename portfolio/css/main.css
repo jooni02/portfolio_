@@ -37,16 +37,13 @@
 }
 
 .info {
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
 .other div .img {
     text-align: center;
 }
 
-.web, .other {
-    padding: 50px 50px;
-}
 
 .web h2, .other h2  {
     font-size: 110px;
@@ -54,17 +51,19 @@
 }
 .web .list ul li { 
     display: flex;
-    justify-content: space-between;
-    margin: 100px 0 200px 0;
+    justify-content: space-around;
+    margin: 100px 0 0 0;
 }
-.web .list ul li .list01 {
-    margin: 0 100px 0 0;
+
+.web .list ul li .list01 a:hover img,
+.web .list ul li .list02 a:hover img,
+.web .list ul li .list03 a:hover img {
+    transform: translateY(-20px);
 }
-.web .list ul li .list01 a {
-    transition: all 0.5s ease;
-}
-.web .list ul li .list01 a:hover {
-    transform: scale(1.1);
+.web .list ul li .list01_txt,
+.web .list ul li .list02_txt,
+.web .list ul li .list03_txt {
+    padding: 150px 0 0 0;
 }
 
 .web .list ul li h3 {
@@ -72,7 +71,24 @@
 }
 .web .list ul li h3 strong {
     color: #205EFF;
+    font-weight: 900;
+    margin: 0 10px 0 0;
 }
-.web .list ul li h3 strong span {
+.web .list ul li h3 .txt {
     font-size: 18px;
+    color: #999;
+    margin: 0 0 0 10px;
 }
+.web .list ul li p {
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 1.5rem;
+    width: 850px;
+}
+.web .list ul li .list_sub p {
+    font-size: 16px;
+    color: #999;
+    line-height: 0.8rem;
+}
+

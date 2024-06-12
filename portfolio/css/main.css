@@ -63,6 +63,9 @@
 .web .list ul li .list03_txt {
     padding: 150px 0 0 0;
 }
+.web .list ul li .list04 {
+    opacity: 50%;
+}
 .web .list ul li h3 {
     font-size: 35px;
 }

@@ -40,35 +40,19 @@
     padding: 100px 0;
 }
 
-.other {
-    padding: 200px 0;
+.web .web_tit h2 {
+    padding: 0 0 0 20px;
 }
-.other h2 {
-    font-weight: 900;
-} 
-.other .other_photo {
-    margin: 100px 0 0 0 ;
-}
-.other .other_photo a img {
-    display: block;
-    margin: auto;
-}
-
-
 .web .web_tit h2, .other .other_tit h2  {
     font-size: 110px;
     font-weight: 900;
     margin: 20px 0 30px 0;
 }
-.other_tit h2  {
-    text-align: center;
-}
 .web .list ul li { 
     display: flex;
     justify-content: space-around;
-    margin: 100px 0 100px 0;
+    margin: 100px 0 150px 0;
 }
-
 .web .list ul li .list01 a:hover img,
 .web .list ul li .list02 a:hover img,
 .web .list ul li .list03 a:hover img {
@@ -79,7 +63,6 @@
 .web .list ul li .list03_txt {
     padding: 150px 0 0 0;
 }
-
 .web .list ul li h3 {
     font-size: 35px;
 }
@@ -104,6 +87,23 @@
     font-size: 16px;
     color: #999;
     line-height: 0.8rem;
+}
+
+.other {
+    padding: 150px 0;
+}
+.other_tit h2  {
+    text-align: center;
+}
+.other h2 {
+    font-weight: 900;
+} 
+.other .other_photo {
+    margin: 80px 0 0 0 ;
+}
+.other .other_photo a img {
+    display: block;
+    margin: auto;
 }
 
 .finish {

@@ -13,10 +13,9 @@
 .main_tit {
     padding: 50px;
     font-size: 110px;
-    font-family: "DM Serif Text";
 }
-.main_tit h1 {
-    font-size: 200px;
+h1 {
+    font-size: 220px;
     font-weight: 900;
     letter-spacing : -0.02em;
 }
@@ -55,16 +54,15 @@
 }
 .web .list ul li .list01 a:hover img,
 .web .list ul li .list02 a:hover img,
-.web .list ul li .list03 a:hover img {
+.web .list ul li .list03 a:hover img,
+.web .list ul li .list04 a:hover img  {
     transform: translateY(-20px);
 }
 .web .list ul li .list01_txt,
 .web .list ul li .list02_txt,
-.web .list ul li .list03_txt {
+.web .list ul li .list03_txt,
+.web .list ul li .list04_txt {
     padding: 150px 0 0 0;
-}
-.web .list ul li .list04 {
-    opacity: 50%;
 }
 .web .list ul li h3 {
     font-size: 35px;
@@ -90,6 +88,7 @@
     font-size: 16px;
     color: #999;
     line-height: 0.8rem;
+    font-weight: 400;
 }
 
 .other {

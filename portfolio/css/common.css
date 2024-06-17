@@ -1,5 +1,4 @@
 @charset "utf-8"; /* 이css문서는 UTF-8방식으로 인코딩 되어 있습니다. */
-/* 구글폰트 */
 
 /* 한글웹폰트 */
 @font-face {
@@ -42,7 +41,11 @@ html, body {
     width: 100%;
     overflow: hidden;
 }
-
+.main_tit .list01,
+.main_tit .list02,
+.main_tit .list03 {
+    font-family: "DM Serif Text", serif;
+}
 .skipnav {
     position: absolute;
     left: 0;

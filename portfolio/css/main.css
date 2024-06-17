@@ -10,24 +10,37 @@
     }
 }
 
-.main_tit {
-    padding: 50px;
-    font-size: 110px;
-}
-h1 {
+
+.main h1 {
     font-size: 220px;
     font-weight: 900;
     letter-spacing : -0.02em;
 }
-.main_tit .list02 {
+.main_txt {
+    padding: 0 0 50px 0;
+    font-size: 100px;   
+}
+.main_txt .list02 {
     margin: 0 0 0 200px;
 }
-.main_tit .list03 {
+.main_txt .list03 {
     margin: 0 0 0 500px;
 }
-.main_tit .year {
+.main_txt .year {
     font-size: 30px;
     text-align: right;
+}
+.main_txt .list01,
+.main_txt .list02,
+.main_txt .list03,
+.web .web_tit h2,
+.other .other_tit h2 {
+    font-family: "DM Serif Text", serif;
+}
+
+.web .web_tit h2,
+.other .other_tit h2 {
+    letter-spacing : 0.4rem;
 }
 
 .bg_b {

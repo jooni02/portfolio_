@@ -41,11 +41,7 @@ html, body {
     width: 100%;
     overflow: hidden;
 }
-.main_tit .list01,
-.main_tit .list02,
-.main_tit .list03 {
-    font-family: "DM Serif Text", serif;
-}
+
 .skipnav {
     position: absolute;
     left: 0;

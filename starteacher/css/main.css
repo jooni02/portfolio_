@@ -377,32 +377,43 @@
     padding: 15px 34px;
     margin: 15px 0 0 0;
 }
-.board  {
-    position: relative;
-}
+
+
 .board .inner {
     display: flex;
     justify-content: space-between;
 } 
-.board .inner a {
-    display: block;
-    font-weight: 800;
+.board .inner .board_left,
+.board .inner .board_right {
+    position: relative;
 }
-.board .inner a.left {
+.board .inner .board_left {
     background: linear-gradient(to left, #cdcdcd, #fff 50%, #cdcdcd 90%);
     width: 50%;
     height: 220px;
-    padding: 60px 40px;
 }
-.board .inner a.right {
+.board .inner .board_right {
     background: linear-gradient(to left, #200041, #6A00D3 50%, #200041 90%);
-    width: 50%;
     height: 220px;
+    width: 50%;
     color: #fff;
 }
-.board .inner a h2 {
-    font-size: 40px;
+.board .inner .board_left a,
+.board .inner .board_right a {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.board .inner a p {
-    font-size: 16px;
+.board .inner .inner02 {
+    display: flex;
+    justify-content: center;
+}   
+.board .inner .inner02 .text {
+    margin: 20px 0 0 30px;
+}
+.board .inner h2 {
+    font-size: 40px;    
+    font-weight: 900;
 }

@@ -63,7 +63,7 @@
 .web .list ul li { 
     display: flex;
     justify-content: space-around;
-    margin: 100px 0 150px 0;
+    margin: 100px 0 180px 0;
 }
 .web .list ul li .list01 a:hover img,
 .web .list ul li .list02 a:hover img,
@@ -105,7 +105,7 @@
 }
 
 .other {
-    padding: 150px 0;
+    padding: 80px 0;
 }
 .other_tit h2  {
     text-align: center;
